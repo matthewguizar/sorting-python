@@ -26,6 +26,7 @@ def merge(list1, list2):
     return combined  # return the merged and sorted list
 
 
+# 0(n log n)
 # break list in half until each item has its own list
 def merge_sort(my_list):
     # if the list contains only one element, it is already sorted
