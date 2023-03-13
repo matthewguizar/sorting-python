@@ -1,3 +1,7 @@
+# O(n^) time complexity
+# O(1) space complexity
+
+
 def bubble_sort(my_list):
     # starts with first item and compare to second and
     # switches smaller item to first position
@@ -29,6 +33,8 @@ def selection_sort(my_list):
             my_list[min_index] = temp
     return my_list
 
+
+# O(n) when starting with almost sorted/ sorted data
 
 def insertion_sort(my_list):
     # starts at second item and compares to item before
